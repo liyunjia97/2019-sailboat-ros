@@ -3,6 +3,8 @@ Simulation: https://github.com/sjtu-automatic-maritime-system/Sailboat-Simulatio
 
 Lab: https://github.com/sjtu-automatic-maritime-system/Sailboat-Lab
 
+ROS官方下载地址：http://wiki.ros.org/cn/ROS/Tutorials/InstallingandConfiguringROSEnvironment
+
 #### 1. install
 ```
 mkdir -p ~/sailboat_ws/src
