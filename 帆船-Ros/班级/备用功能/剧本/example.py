@@ -72,7 +72,7 @@ if __name__ == "__main__":
     spare_function_pub = rospy.Publisher('spare_function_out', spare_function_out, queue_size=5)
     spare_function_para_pub = rospy.Publisher('spare_function_para', spare_function_para, queue_size=5)
     
-    rospy.Subscriber("sensor", Sensor_msg, sensorCallback)
+    rospy.Subscriber("sensor_kalman_msg", Sensor_msg, sensorCallback)
     config_srv = Server(spare_function_Config, getConfigCallback)
 
     rate = rospy.Rate(10) 
